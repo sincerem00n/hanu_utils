@@ -31,8 +31,8 @@ ping -i 0.01 -c 1000 <JETSON_IP_ADDRESS>
 
 Look at the "rtt" summary at the bottom:
 
-    avg (Latency): Should be < 1.0ms.
+avg (Latency): Should be < 1.0ms.
 
-    mdev (Jitter): This is the "Mean Deviation." For stable locomotion, this must be < 0.1ms (100 microseconds).
+mdev (Jitter): This is the "Mean Deviation." For stable locomotion, this must be < 0.1ms (100 microseconds).
 
 If mdev is high, your motor commands are arriving at irregular intervals, which will make the humanoid's walk look "jittery" or vibrate.

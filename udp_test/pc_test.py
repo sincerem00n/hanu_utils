@@ -1,3 +1,5 @@
+# Hanumanoid UDP test
+
 import socket
 import time
 import numpy as np
